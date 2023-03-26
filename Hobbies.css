@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,500;1,600&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+#HOBBIES{
+    display: flex;
+    font-size: 25px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px;
+    border-bottom: 1px solid rgb(0, 0, 0, 0, 0.5);
+    
+}
+
+.HOBBIES-CONTAINER{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0px;
+    flex-wrap: wrap;
+}
+.HOBBIES-BOX{
+    width: 350px;
+    background-color: #ffff;
+    border: 1px solid #ececec;
+    margin: 20px;
+}
+.hob-img{
+    width: 100%;
+    height: auto;
+}
+.hob-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+
+}
+.hob-text{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+}
+.hob-text span{
+    color: black;
+    font-size: 0.9rem;    
+}
+.hob-text .hob-title{
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: #272727;
+}
+.hob-text .hob-title:hover{
+    color: #f33c3c;
+    transition: all ease 0.3s;
+}
+.hob-text p{
+    color: #9b9b9b;
+    font-size: 0.9rem;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin: 20px 0px;
+    
+}
+
+/* NAV-LINKS */
+.nav-links{
+    width: 200%;
+    height: 100%;
+    display: flex;
+    margin: auto;
+    padding: 25px 0;
+    font-family: 'Poppins', sans-serif;
+    align-items: center;
+    justify-content: space-between;
+
+}
+ul{
+    margin-top: -4;
+   
+}
+ul li{
+    list-style: none;
+    display: inline-block;
+    margin: auto;
+    padding-left: 30px;
+}
+ul li a{
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    margin-top: -3%;
+}
+
+body{
+    min-height: 100vh;
+    width: 100%;    
+    background: url(Pics/HOBBIES-BG.jpg) no-repeat;
+    background-size: cover;
+}

@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,500;1,600&display=swap');
+
+/* START OF NAV-LINKS */
+
+main{
+    margin: 0;
+    padding: 0;
+}
+.nav-links{
+    width: 200%;
+    height: 100%;
+    display: flex;
+    margin: auto;
+    padding: 25px 0;
+    align-items: center;
+    justify-content: space-between;
+
+}
+ul{
+    margin-top: -4;
+   
+}
+ul li{
+    list-style: none;
+    display: inline-block;
+    margin: auto;
+    padding-left: 30px;
+}
+ul li a{
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    margin-top: -3%;
+}
+
+/* END OF NAV-LINKS */
+
+/* ABOUT  */
+.About-container{
+    padding: 30px 100px;
+
+}
+.About h1{
+    margin: 0;
+    padding: 20px;
+}
+
+/* START ARTICLE ADJUSTMENT */
+article img{
+    height: 200px;
+    width: 200px;
+    border: 3px solid #fff;
+    border-radius: 50%;
+}
+
+article h1{
+    font-size: 50px;
+    font-weight: 800;
+    color:black;
+    text-transform: uppercase;
+}   
+
+article h1/:after{
+    content: "";
+    height: 5px;
+    width: 255px;
+    background-color: #fff;
+    display: block;
+    margin:auto;
+}
+blockquote{
+    font-family: sans-serif;
+    font-size: 23px;    
+    margin-top: 30px;   
+}
+
+article h5{
+    text-transform: uppercase;
+    font-size: 27px;
+    margin-top: 30px;
+    color: black;
+    letter-spacing: 1.5px;
+}
+
+article p{
+    font-size: 11px;
+}
+
+
+/* END OF ARTICLE ADJUST */
+
+
+/*START BLOCKQUOTE TEXT/COlOR ADJUSTMENT */
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    color: rgb(212, 205, 201);
+    line-height: 1.5;
+    letter-spacing: 1px;
+}
+
+/*END BLOCKQUOTE TEXT/COlOR ADJUSTMENT */
+
+
+/* BACKGROUND PICTURE */
+
+body{
+    min-height: 100vh;
+    width: 100%;    
+    background: url(Pics/keyboardBG.jpg) no-repeat;
+    background-size: cover;
+
+}
+/* BACKGROUND PICTURE */
+
+/*START PROFILE ADJUSTMENT */
+.profile{
+    border-radius: 25%;
+    width: 350px;
+    height: 350px;
+}
+
+/*END PROFILE ADJUSTMENT */
